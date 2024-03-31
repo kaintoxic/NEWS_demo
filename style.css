@@ -278,8 +278,8 @@ ul {
     font-weight: bold;
 }
 .section3 .sc3_body .sc3_item .sc3_item_top img{
-    width: 260px;
-    height: 180px;
+    width: 100%;
+    height: auto;
 }
 
 .section3 .sc3_body .sc3_item .sc3_item_bottom img{
@@ -349,14 +349,13 @@ ul {
     display: flex;
     margin-bottom: 20px;
     border-bottom: 1px solid #dedede;
-    padding-left: 15px;
     &:last-child{
         border: none;
     }
     
 }
 .section4 .sc4_body .sc4_item_right img{
-    width: 50%;
+    width: 45%;
     height: auto;
     margin-left: 0px;
     margin-bottom: 15px;
@@ -367,8 +366,7 @@ ul {
     vertical-align: baseline;
     cursor:pointer;
     font-weight: bold;
-    font-size: 13px;
-    padding-right: 10px;
+    font-size: 12px;
     &:hover{
         color: #2084b7;
     }
@@ -734,7 +732,6 @@ footer p{
     .section5 .sc5_body .sc5_setside{
         padding: 15px;
         padding-top: 0px;
-        margin: 0 20px;
     }
     .section5 .sc5_body .sc5_flex_item .sc5_right{
         display:none;
@@ -756,11 +753,11 @@ footer p{
         max-width: 950px;
      }
      .section3 .sc3_body .sc3_item .sc3_item_top{
-        display: flex;
+        
      }
      .section3 .sc3_body .sc3_item .sc3_item_top img{
-        width: 120px;
-        height: 80px;
+        width: 100%;
+        height: auto;
         margin: 10px 0px;
         margin-right: 10px;
      }
@@ -787,8 +784,8 @@ footer p{
             padding-bottom: 25px;
         }
      }
-    .section4 .sc4_body .sc4_right {
-        display: none;
+     .section4 .sc4_body .sc4_right .sc4_item_right{
+        display: none;     
     }
 /* congnghe_cs4 */
 .congnghe_sc4 .congnghe_sc4_body .congnghe_sc4_right{
@@ -853,7 +850,7 @@ footer p{
         height: auto;
         object-fit: cover;
     }
-    .section4 .sc4_body .sc4_right{
+    .section4 .sc4_body .sc4_right .sc4_item_right{
         display: none;     
     }
     
@@ -924,15 +921,14 @@ footer p{
     .section1 .container .row .item_right{
         display: none;
     }
-    .section4 .sc4_body .sc4_center_flex{
-        display: flex;
-        justify-content: space-between;
+    .section4 .sc4_body .row .sc4_left_flex{
+        width: 60%;
     }
-    .section4 .sc4_body .sc4_right{
+    .section4 .sc4_body .sc4_right .sc4_item_right{
         display: none;     
     }
-    .section4 .sc4_body .sc4_item_center{
-        max-width: 250px;
+    .section4 .sc4_body .sc4_center_flex{
+        width: 40%;
     }
     .section4 .container{
         max-width: 550px;
