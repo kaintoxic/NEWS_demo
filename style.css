@@ -853,31 +853,10 @@ footer p{
         height: auto;
         object-fit: cover;
     }
-
     .section4 .sc4_body .sc4_right{
-        display: flex;
-        border: none;
-        max-width: 130px;
-        padding: 0px;
-        display: none;
-        }
-    .section4 .sc4_body .sc4_right .sc4_item_right{
-        flex-direction:column-reverse ;
-        border:none;
-        justify-content: flex-end;
-        &:first-child{
-            padding: 0px;
-        }
+        display: none;     
     }
-    .section4 .sc4_body .sc4_right .sc4_item_right img{
-        width: 15%;
-        height: auto;
-        margin-bottom: 5px;
-        object-fit: cover;
-    }
-    .section4 .sc4_body .sc4_item_right .sc4_content p{
-        font-size: 12px;
-    }
+    
     .section5 .sc5_body .sc5_flex_item .sc5_right{
         display:none;
     }
