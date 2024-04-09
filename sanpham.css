@@ -1,5 +1,4 @@
 .sanpham {
-   width: max-content;
    margin: 0 auto;
    padding-top: 30px;
 }
@@ -30,9 +29,14 @@
     opacity: 0.4;
 }
 .sanpham_body{
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: 0 auto;
     padding-top: 20px;
+}
+.sanpham .sanpham_body_video .video_sp{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
 }
 .sanpham .sanpham_body .sanpham_body_title{
     font-size: 25px;
@@ -40,9 +44,14 @@
     padding-bottom: 30px;
     text-align: center;
 }
+.sanpham .sanpham_body .img_sp{
+    text-align: center;
+}
 .sanpham .sanpham_body img{
-    width: 800px;
-    height: 550px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover;
 }
 .sanpham .sanpham_body p{
     font-size: 20px;
@@ -61,8 +70,6 @@
 }
 .sanpham .sanpham_body .sanpham_body_video p{
     font-size: 15px;
-    padding-bottom: 30px;
-    
 }
 .sanpham .sanpham_body .sanpham_body_lienquan{
     margin-bottom: 20px ;
@@ -72,28 +79,6 @@
     border-top: 2px solid #f3f3f3;
     border-bottom: 2px solid #f3f3f3;
     margin-bottom: 50px;
-}
-.sanpham .sanpham_body .sanpham_body_lienquan .lienquan_content_flex{
-    max-width: 200px;
-    margin-right: 30px;
-}
-.sanpham .sanpham_body .sanpham_body_lienquan .sanpham_body_lienquan_title{
-    font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 10px;
-}
-.sanpham .sanpham_body .sanpham_body_lienquan .sanpham_body_lienquan_content{
-   display: flex;
-   justify-content: flex-start;
-}
-.sanpham .sanpham_body .sanpham_body_lienquan .sanpham_body_lienquan_content img{
-    width: 200px;
-    height: auto;
-}
-.sanpham .sanpham_body .sanpham_body_lienquan .sanpham_body_lienquan_content .lienquan_text{
-    margin-top: 10px;
-    font-size: 15px;
-    font-weight: bold;
 }
 .quantam .quantam_title{
     font-weight: bold;
@@ -164,4 +149,183 @@
     padding-right: 15px;
     width: 280px;
     height: auto;
+}
+.lienquan .lienquan_body img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.lienquan{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.lienquan .lienquan_title{
+    border-top: 1px solid #dedede;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.lienquan .lienquan_body .lienquan_text{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+@media (max-width:1199.98px){
+    .header .container{
+        max-width: 100%;
+    }
+    .sanpham .container{
+        max-width: 1140px;
+    }
+    .lienquan .container{
+        max-width: 1140px;
+    }
+    .quantam .container{
+        max-width: 1140px;
+    }
+    .xemnhieu .container{
+        max-width: 1140px;
+    }
+    .lienquan{
+        max-width: 70%;
+    }
+}
+@media (max-width:991.98px){
+    .header .container{
+        max-width: 100%;
+    }
+    .sanpham .container{
+        max-width: 960px;
+    }
+    .lienquan .container{
+        max-width: 960px;
+    }
+    .quantam .container{
+        max-width: 960px;
+    }
+    .xemnhieu .container{
+        max-width: 960px;
+    }
+    .lienquan{
+        max-width: 75%;
+    }
+    .sanpham .sanpham_header h1{
+        font-size: 38px;
+    }
+    .sanpham .sanpham_body .sanpham_body_title {
+        font-size: 28px;
+    }
+    .sanpham .sanpham_body p {
+        font-size: 21px;
+    }
+    .quantam .quantam_title {
+        font-size: 24px;
+    }
+    .xemnhieu .xemnhieu_title{
+        font-size: 24px;
+    }
+    .xemnhieu .xemnhieu_body .xemnhieu_item .xemnhieu_content h3 {
+        font-size: 21px;
+    }
+    .xemnhieu .xemnhieu_body .xemnhieu_item .xemnhieu_content p {
+        font-size: 18px;
+    }
+    .quantam .quantam_body .quantam_body_item .quantam_body_content{
+        font-size: 18px;
+    }
+}
+@media (max-width:767.98px){
+    .header .container{
+        max-width: 100%;
+    }
+    .sanpham .container{
+        max-width: 740px;
+    }
+    .lienquan .container{
+        max-width: 740px;
+    }
+    .quantam .container{
+        max-width: 740px;
+    }
+    .xemnhieu .container{
+        max-width: 740px;
+    }
+    .lienquan{
+        max-width: 85%;
+    }
+    .sanpham .sanpham_header h1{
+        font-size: 35px;
+    }
+    .sanpham .sanpham_body .sanpham_body_title {
+        font-size: 25px;
+    }
+    .sanpham .sanpham_body p {
+        font-size: 18px;
+    }
+    .quantam .quantam_title {
+        font-size: 21px;
+    }
+    .xemnhieu .xemnhieu_title{
+        font-size: 21px;
+    }
+    .xemnhieu .xemnhieu_body .xemnhieu_item .xemnhieu_content h3 {
+        font-size: 18px;
+    }
+    .xemnhieu .xemnhieu_body .xemnhieu_item .xemnhieu_content p {
+        font-size: 15px;
+    }
+    .quantam .quantam_body .quantam_body_item .quantam_body_content{
+        font-size: 15px;
+    }
+}
+@media (max-width:575.98px){
+    .header .container{
+        max-width: 100%;
+    }
+    .sanpham .container{
+        max-width: 550px;
+    }
+    .lienquan .container{
+        max-width: 550px;
+    }
+    .quantam .container{
+        max-width: 550px;
+    }
+    .xemnhieu .container{
+        max-width: 550px;
+    }
+    .lienquan{
+        max-width: 83%;
+    }
+    .sanpham .sanpham_header h1{
+        font-size: 30px;
+    }
+    .sanpham .sanpham_body .sanpham_body_title {
+        font-size: 20px;
+    }
+    .sanpham .sanpham_body p {
+        font-size: 16px;
+    }
+    /* .xemnhieu .xemnhieu_body .xemnhieu_item .xemnhieu_content p{
+        display: none;
+    } */
+    .quantam .quantam_body .quantam_body_item .quantam_body_content{
+        font-size: 13px;
+    }
+    .quantam .quantam_title {
+        font-size: 18px;
+    }
+    .xemnhieu .xemnhieu_title{
+        font-size: 18px;
+    }
+    .xemnhieu .xemnhieu_body .xemnhieu_item .xemnhieu_content h3 {
+        font-size: 15px;
+    }
+    .xemnhieu .xemnhieu_body .xemnhieu_item .xemnhieu_content p {
+        font-size: 12px;
+    }
+    .lienquan .lienquan_body .lienquan_text {
+        font-size: 13px;
+}
 }
