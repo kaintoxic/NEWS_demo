@@ -78,15 +78,16 @@
 .congnghe_sc3 .congnghe_sc3_item img{
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .congnghe_sc3 .congnghe_sc3_item .congnghe_sc3_item_content{
     font-size: 18px;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 /* congnghe_sc4 */
 .congnghe_sc4{
-    padding-top: 40px;
+    padding-top: 30px;
 }
 .congnghe_sc4 .congnghe_sc4_title{
     font-weight: bold;
