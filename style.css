@@ -139,6 +139,7 @@ ul {
     &:hover{
         color: #2084b7;
     }
+    font-weight: bold;
 }
 .section1 .sc_1_2 img{
     padding-top: 20px;
