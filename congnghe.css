@@ -206,9 +206,6 @@
     .congnghe_sc4 .congnghe_sc4_body .congnghe_sc4_right{
         display: none;
     }
-    .congnghe_sc4 .congnghe_sc4_body .congnghe_sc4_item .congnghe_sc4_content p{
-        display: none;
-    }
     .congnghe_sc2 .congnghe_sc2_right .congnghe_sc2_right_content {
         font-size: 15px;
     }
@@ -241,9 +238,6 @@
         padding: 0;
     }
     .congnghe_sc4 .congnghe_sc4_body .congnghe_sc4_right{
-        display: none;
-    }
-    .congnghe_sc4 .congnghe_sc4_body .congnghe_sc4_item .congnghe_sc4_content p{
         display: none;
     }
     .congnghe_sc3 .congnghe_sc3_item .congnghe_sc3_item_content {

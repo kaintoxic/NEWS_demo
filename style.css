@@ -94,6 +94,21 @@ ul {
 .dropdown, .dropleft, .dropright, .dropup{
     position: unset;
 }
+.header .header_icon .dropdown-item{
+    color: #2084b7;
+}
+.carousel-control-next-icon {
+    background-image:none;
+}
+.carousel-control-prev-icon {
+    background-image:none;
+}
+#carouselExampleControls .carousel-control-next-icon {
+    color: #fffdfd;
+}
+#carouselExampleControls .carousel-control-prev-icon{
+    color: #fffdfd;
+}
 /* *************************_TRANG_CHU_****************************** */
 /* section1 */
 .section1{
@@ -188,10 +203,10 @@ ul {
     border-top-left-radius: 5%;
 }
 #carouselExampleControls .carousel-inner .carousel-item .slideshow_item .slideshow_content{
-    margin: 20px;
+    margin: 10px;
     border: 2px solid #dedede ;
     border-radius: 5%;
-    max-width: 220px;
+    max-width: 225px;
 }
 #carouselExampleControls .carousel-inner .carousel-item .slideshow_item{
     display: flex;
@@ -545,7 +560,7 @@ footer p{
         display: none;
     }
     #carouselExampleControls .carousel-inner .carousel-item .slideshow_item .slideshow_content{
-        max-width: 250px;
+        max-width: 230px;
     }
     #carouselExampleControls .carousel-inner .carousel-item .slideshow_item .slideshow_content img{
         width: 100%;
@@ -635,6 +650,12 @@ footer p{
      .section4 .sc4_body .sc4_right .sc4_item_right{
         display: none;     
     }
+    #carouselExampleControls .carousel-control-next-icon {
+        color: #000000;
+    }
+    #carouselExampleControls .carousel-control-prev-icon{
+        color: #000000;
+    }
 
 }
 
@@ -681,11 +702,15 @@ footer p{
         max-width: 740px;
     }
     #carouselExampleControls .carousel-inner .carousel-item .slideshow_item .slideshow_content{
-        max-width: 190px;
+        max-width: 180px;
+        margin: 10px;
     }
     #carouselExampleControls .carousel-inner .carousel-item .slideshow_item .slideshow_content img{
         width: 100%;
         height: auto;
+    }
+    #carouselExampleControls .carousel-inner .carousel-item .slideshow_item .slideshow_content .slideshow_content_text{
+        font-size: 13px;
     }
     .slideshow .carousel-inner .carousel-item .slideshow_item .slideshow_content1{
         display: none;
@@ -756,7 +781,11 @@ footer p{
         display: none;
     }
     #carouselExampleControls .carousel-inner .carousel-item .slideshow_item .slideshow_content {
-        max-width: 220px;
+        max-width: 160px;
+        margin: 10px;
+    }
+    #carouselExampleControls .carousel-inner .carousel-item .slideshow_item .slideshow_content .slideshow_content_text{
+        font-size: 12px;
     }
     .section2 .sc2_body .sc2_right_item img {
         width: 100%;
@@ -834,6 +863,9 @@ footer p{
         border-left: 7px solid red;
         padding-left: 10px;
         border-bottom: 1px solid #dedede;
+    }
+    .section6 .sc6_content .sc6_content_title1{
+        display: none;
     }
 }
 @media (max-width:1200px){

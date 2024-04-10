@@ -296,7 +296,7 @@
         max-width: 550px;
     }
     .lienquan{
-        max-width: 83%;
+        max-width: 90%;
     }
     .sanpham .sanpham_header h1{
         font-size: 30px;
@@ -307,9 +307,7 @@
     .sanpham .sanpham_body p {
         font-size: 16px;
     }
-    /* .xemnhieu .xemnhieu_body .xemnhieu_item .xemnhieu_content p{
-        display: none;
-    } */
+    
     .quantam .quantam_body .quantam_body_item .quantam_body_content{
         font-size: 13px;
     }
@@ -320,12 +318,13 @@
         font-size: 18px;
     }
     .xemnhieu .xemnhieu_body .xemnhieu_item .xemnhieu_content h3 {
-        font-size: 15px;
+        font-size: 16px;
     }
     .xemnhieu .xemnhieu_body .xemnhieu_item .xemnhieu_content p {
         font-size: 12px;
+        display: none;
     }
     .lienquan .lienquan_body .lienquan_text {
-        font-size: 13px;
+        font-size: 12px;
 }
 }
